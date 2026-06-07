@@ -1,10 +1,10 @@
-# 🎤 Speech Rhythm Coach
+# Speech Rhythm Coach
 
 A real-time browser tool that trains you to speak at **82 BPM** — one word per beat. Speak into your microphone, get instant rhythm feedback, and climb the leaderboard against AI competitors that grow as you improve.
 
 ---
 
-## ✨ Features
+## Features
 
 ### Metronome Engine
 - Accurate 82 BPM click track using the **Web Audio API look-ahead scheduler** (Chris Wilson technique)
@@ -42,7 +42,7 @@ Composite 0–100 score using four weighted components:
 A BPM-penalty multiplier (0.6–1.0) reduces the score when average tempo drifts far from 82 BPM.
 
 ### Skill Tiers
-`🌱 Novice` → `📈 Apprentice` → `🎯 Practitioner` → `⚡ Expert` → `👑 Master`
+`Novice` → `Apprentice` → `Practitioner` → `Expert` → `Master`
 
 ### Leaderboard
 - Right-side slide panel with personal best tracking
@@ -60,7 +60,7 @@ A BPM-penalty multiplier (0.6–1.0) reduces the score when average tempo drifts
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 app/
@@ -103,7 +103,7 @@ types/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 **Requirements:** Node.js 20+, a browser with Web Audio API and `getUserMedia` support.
 
@@ -119,7 +119,7 @@ Open [http://localhost:3000](http://localhost:3000) and allow microphone access 
 
 ---
 
-## 🏗️ Building
+## Building
 
 ```bash
 npm run build
@@ -129,7 +129,7 @@ This outputs a fully static site to `out/` (Next.js `output: "export"` mode).
 
 ---
 
-## 🌐 Deployment — GitHub Pages
+## Deployment — GitHub Pages
 
 The repository includes a GitHub Actions workflow at `.github/workflows/deploy.yml`.
 
@@ -147,7 +147,7 @@ On every push to `main` the workflow will:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | | |
 |---|---|
